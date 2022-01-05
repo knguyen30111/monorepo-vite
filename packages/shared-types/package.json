@@ -1,0 +1,13 @@
+{
+  "name": "@gan/shared-types",
+  "description": "Shared Types in DX project, act like protobuf files but in typescript",
+  "version": "1.0.8",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint --ext js,jsx,mdx,ts,tsx src",
+    "type:check": "tsc --noEmit"
+  }
+}

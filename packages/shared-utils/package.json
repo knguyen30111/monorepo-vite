@@ -1,0 +1,24 @@
+{
+  "name": "@gan/shared-utils",
+  "description": "Shared Utilities",
+  "version": "1.0.8",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint --ext js,jsx,mdx,ts,tsx src",
+    "type:check": "tsc --noEmit",
+    "test": "jest --silent --maxConcurrency=10 --passWithNoTests",
+    "test:watch": "jest --watch",
+    "test:action": "jest --silent --maxConcurrency=10 --passWithNoTests --runInBand"
+  },
+  "devDependencies": {
+    "apisauce": "^2.0.0"
+  },
+  "dependencies": {
+    "@gan/shared-types": "workspace:*",
+    "@material-ui/core": "^4.11.1",
+    "hex-rgb": "^4.2.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.build.json",
+  "compilerOptions": {
+      "baseUrl": "./packages",
+      "paths": {
+          "@gan/shared-components": ["shared-components/src"],
+          "@gan/shared-types": ["shared-types/src"],
+          "@gan/shared-utils": ["shared-utils/src"],
+      }
+  }
+}
